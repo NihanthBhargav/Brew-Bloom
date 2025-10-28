@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bloom | Coffee Laboratory & Artisanal Roastery</title>
+    <meta name="description" content="Where science meets art in every cup. Experience precision brewing and creative coffee craftsmanship.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background Elements -->
+    <div class="floating-elements">
+        <div class="floating-bean"></div>
+        <div class="floating-bean"></div>
+        <div class="floating-bean"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🧪</span>
+                <span class="logo-text">Brew & Bloom</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link" data-text="Discover"><span>Discover</span></a>
+                <a href="#process" class="nav-link" data-text="Process"><span>Process</span></a>
+                <a href="#creations" class="nav-link" data-text="Creations"><span>Creations</span></a>
+                <a href="#experience" class="nav-link" data-text="Experience"><span>Experience</span></a>
+                <a href="#reserve" class="nav-link" data-text="Reserve"><span>Reserve</span></a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="cta-button" id="explore-btn">Explore Lab</button>
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>Precision Brewing Since 2024</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Where Science</span>
+                    <span class="title-line">Meets</span>
+                    <span class="title-line accent-text">Coffee Art</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Experience the perfect fusion of laboratory precision and creative craftsmanship 
+                    in every meticulously crafted cup.
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary" id="brew-journey">
+                        <span>Begin Brew Journey</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary" id="view-process">
+                        Our Process
+                    </button>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="24">0</span>
+                        <span class="stat-label">Brew Methods</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span>
+                        <span class="stat-label">Single Origins</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">Perfect Cups</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="coffee-lab">
+                    <div class="brew-equipment">
+                        <div class="chemex"></div>
+                        <div class="espresso-machine"></div>
+                        <div class="scale"></div>
+                    </div>
+                    <div class="floating-cup">
+                        <div class="coffee-cup">
+                            <div class="coffee-liquid"></div>
+                            <div class="steam"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Explore Our World</span>
+            <div class="indicator-arrow"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Scientific Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Brew & Bloom Method</h2>
+                <p class="section-subtitle">Precision. Purity. Perfection.</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Bean Selection & Analysis</h3>
+                        <p>We source single-origin beans and analyze their chemical composition for optimal extraction.</p>
+                        <div class="step-visual">
+                            <div class="molecular-structure">
+                                <div class="atom"></div>
+                                <div class="atom"></div>
+                                <div class="atom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Precision Roasting</h3>
+                        <p>Temperature-controlled roasting brings out unique flavor profiles with scientific accuracy.</p>
+                        <div class="step-visual">
+                            <div class="temperature-graph"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Laboratory Brewing</h3>
+                        <p>Each brew method is calibrated to extract the perfect balance of flavors and aromas.</p>
+                        <div class="step-visual">
+                            <div class="brew-animation"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Coffee Creations -->
+    <section class="creations" id="creations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Signature Creations</h2>
+                <p class="section-subtitle">Art meets science in every cup</p>
+            </div>
+            
+            <div class="creation-filters">
+                <button class="filter-btn" data-filter="all">All Experiments</button>
+                <button class="filter-btn" data-filter="espresso">Espresso Base</button>
+                <button class="filter-btn" data-filter="filter">Filter Methods</button>
+                <button class="filter-btn" data-filter="signature">Signature Blends</button>
+            </div>
+            
+            <div class="creations-grid">
+                <!-- Creation items will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Immersive Experience Section -->
+    <section class="experience" id="experience">
+        <div class="experience-container">
+            <div class="experience-content">
+                <h2>The Laboratory Experience</h2>
+                <p>Step into our coffee laboratory where every detail is designed to enhance your sensory journey.</p>
+                
+                <div class="experience-features">
+                    <div class="feature">
+                        <div class="feature-icon">🔬</div>
+                        <h4>Tasting Sessions</h4>
+                        <p>Guided flavor exploration with our coffee scientists</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">⚗️</div>
+                        <h4>Brewing Workshops</h4>
+                        <p>Learn precision brewing techniques from our experts</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🎨</div>
+                        <h4>Latte Art Mastery</h4>
+                        <p>Transform your coffee into canvas with creative designs</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-visual">
+                <div class="lab-environment">
+                    <div class="lab-equipment"></div>
+                    <div class="scientist-figure"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reserve">
+        <div class="container">
+            <div class="reservation-card">
+                <div class="card-content">
+                    <h2>Reserve Your Laboratory Session</h2>
+                    <p>Book a personalized coffee experience in our state-of-the-art laboratory</p>
+                    
+                    <form class="reservation-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="session-type">Session Type</label>
+                                <select id="session-type" name="session-type">
+                                    <option value="">Choose your experience</option>
+                                    <option value="tasting">Coffee Tasting Session</option>
+                                    <option value="workshop">Brewing Workshop</option>
+                                    <option value="masterclass">Latte Art Masterclass</option>
+                                    <option value="private">Private Laboratory Tour</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="participants">Participants</label>
+                                <div class="counter-input">
+                                    <input type="number" id="participants" name="participants" value="1" min="1" max="8">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <select id="time" name="time">
+                                    <option value="">Select time</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            Reserve Laboratory Session
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="card-visual">
+                    <div class="reservation-graphic">
+                        <div class="coffee-molecule"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">Brew & Bloom</div>
+                    <p>Where every cup is a scientific masterpiece and artistic expression.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Laboratory</h4>
+                        <a href="#">Our Process</a>
+                        <a href="#">Equipment</a>
+                        <a href="#">Research</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Experiences</h4>
+                        <a href="#">Tasting Sessions</a>
+                        <a href="#">Workshops</a>
+                        <a href="#">Masterclasses</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Visit</h4>
+                        <a href="#">Location</a>
+                        <a href="#">Hours</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brew & Bloom Coffee Laboratory. Crafted with precision and passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
